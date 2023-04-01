@@ -1,0 +1,28 @@
+:root {
+    --purplish_navy:#687399 ;
+    --mellow_green:#6daeb0 ;
+    --pale_yellow:#ffdca8 ;
+    --pale_orange:#faa578 ;
+    --pink:#c46693 ;
+    --purple:#78518a ;
+}
+body {
+    background-color: var(--purplish_navy);
+}
+.col-8 {
+    background-color: var(--purple);
+}
+.nav-link {
+    color: var(--purplish_navy);
+    background-color: var(--pink);
+    margin: 5px;
+    border-radius: 25px;
+}
+.col {
+    background-color: var(--mellow_green);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
